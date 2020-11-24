@@ -3,6 +3,9 @@ package com.linyy.leetcode.answer.from1to25;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * 两数之和
+ */
 public class Leetcode1 {
 
     public static void main(String[] args) {
