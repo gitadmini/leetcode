@@ -16,7 +16,8 @@ public class Leetcode1 {
         System.out.println(result[0] + "," + result[1]);
     }
 
-	// 通过
+    // 用时超过用户数，百分之75
+    // 消耗内存超过用户数，百分之88
     public static int[] twoSum(int[] nums, int target) {
 
         Map<Integer,Integer> map = new HashMap<>(nums.length,1);

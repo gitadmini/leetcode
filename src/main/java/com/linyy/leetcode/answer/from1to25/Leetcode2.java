@@ -20,6 +20,8 @@ public class Leetcode2 {
         }while(result != null);
     }
 
+    // 用时超过用户数，百分之100
+    // 消耗内存超过用户数，百分之71
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode result = l1;
         // 各个相同位置节点数相加，存到l1上
